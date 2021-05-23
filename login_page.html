@@ -1,0 +1,99 @@
+<html>
+<head>
+
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/project.css">
+  <!-- styles css -->
+    <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!--font awesome link-->
+  <script src="https://kit.fontawesome.com/493ca6cf00.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-color:lightslategray;">
+
+
+
+<h1 class="text-center" style="color:inverse;">Registration Form</h1>
+ <div class="col-lg-5 col-md-8">
+  <form action="/login_page" method="POST" class="needs-validation" novalidate>
+    <div >
+      <label>First name</label>
+
+      <input type="text" class="form-control" placeholder="First name" name="fname" required>
+
+    </div>
+    <div>
+      <label>Last name</label>
+      <input type="text" class="form-control" placeholder="Last name" name="lname" required>
+
+    </div>
+    <div>
+      <label>Email</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+        </div>
+        <input type="email" class="form-control" name="email" placeholder="Email" aria-describedby="inputGroupPrepend" required>
+
+      </div>
+    </div>
+    <div>
+      <label>Source State</label>
+      <input type="text" class="form-control" name="source_state" placeholder="Source State" required>
+
+    </div>
+    <div>
+      <label>Source District</label>
+      <input type="text" class="form-control"  name="source" placeholder="Source District" required>
+
+    </div>
+    <div>
+      <label>Destination State</label>
+      <input type="text" class="form-control" name="dest_state" placeholder="Destination State" required>
+
+    </div>
+    <div class="form-group mt-3">
+      <label>Destination District</label>
+      <input type="text" class="form-control" name="destination" placeholder="Destination District" required>
+
+    </div>
+    <div>
+<label>Mobile</label>
+      <input type="number" class="form-control" name="phoneNumber" placeholder="Mobile" required>
+
+    </div>
+    <div>
+      <label>Travel Date</label>
+      <input type="date" class="form-control" name="trip" placeholder="Travel Date" required>
+
+    </div>
+    <br>
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" required>
+        <label class="form-check-label" for="invalidCheck">
+          Agree to terms and conditions
+        </label>
+
+      </div>
+    </div>
+    <br>
+    <div  class="btn-get-started"><button type="submit">Register</button></div>
+
+</form>
+</div>
+
+        </div>
+
+      </div>
+    </section><!-- End Registration Section -->
+
+
+
+
+
+</body>
+</html>
